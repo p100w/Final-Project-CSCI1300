@@ -1,0 +1,5 @@
+(Mines)----(Communitycenter)---(Jojamart)
+   |              |                |
+(*Farm*)------(WestTown)-------(EastTown)
+  |               |           
+(Forest)-------(Beach)

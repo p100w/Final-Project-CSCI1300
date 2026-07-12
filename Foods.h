@@ -7,17 +7,21 @@ using namespace std;
 
 class Food {
 private:
+    vector<Food> consumables;
     string Name;
     int energyRestored;
     bool buff;
     string buffName;
     string itemDescription;
+    int price;
 
 public:
-    Food(string n, int eR, bool b, string bN, string iD);
+    Food(string n, int eR, bool b, string bN, string iD, int p);
     string getName();
     string getBuffName();
     string getItemDescription();
     int getEnergyRestored();
+    void addfood(Food c);
+    int getprice();
 };
 #endif
