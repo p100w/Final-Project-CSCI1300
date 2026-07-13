@@ -1,0 +1,5 @@
+-----------West_Town Directory-----------
+4. Enter General Store
+5. Enter Saloon
+6. Dig through trash cans
+7. Leave

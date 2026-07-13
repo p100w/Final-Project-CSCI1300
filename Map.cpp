@@ -47,7 +47,7 @@ string Map::getLocation(){ // finds the place where the character is hopefully
         break;
     }return Location;
 }
-
+mapLocation Map::getLocationEnum(){return position;}//should output the value that the location is tied to so i can use it in directory.cpp
  
 
  void Map::getMap(){ // should helpfully print out the map ive made in the map.txt file

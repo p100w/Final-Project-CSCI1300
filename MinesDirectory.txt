@@ -1,0 +1,5 @@
+-------------Mines Directory-------------
+4. Enter Dwarf's Shop
+5. Go Mining
+6. (maybe repair minecart)
+7. Leave

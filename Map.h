@@ -11,9 +11,11 @@ enum class mapLocation{ //stores each location as a different number i think???
 class Map {
 private:
     string Location;
+    mapLocation PositionEnum;//hopefully it will save the enum value instead of the string
 public:
     Map(mapLocation);
     string getLocation();
+    mapLocation getLocationEnum();
     void getMap();
     
 };

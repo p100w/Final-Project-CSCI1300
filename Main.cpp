@@ -5,10 +5,13 @@
 #include "Villager.h"
 #include "Foods.h"
 #include "Map.h"
+#include "Directory.h"
 using namespace std;
 
 
 int main(){
+    Map map(mapLocation::Farm);
+    Directory directory;
     int i=0;
     while(i!=4 && i!=1){
         cout << "Main Menu!\n" << "Please enter a command\n";
@@ -20,9 +23,12 @@ int main(){
             {cout << "Starting Game..." << endl;
             cout <<"Starting at farm..." << endl;
             cout << "Printing map..." << endl;
-            Map map(mapLocation::Farm);
+            
             map.getMap();
+            cout << endl;
+            cout << endl;
             cout << "You are currently at *" << map.getLocation() << "*" << endl;
+            cout << endl;
             break;}
         case 2:
             cout << "Option 2 under construction please come back later" << endl;
@@ -39,7 +45,10 @@ int main(){
         break;
         }
     } if(i==1){
-        Map map(mapLocation::Farm);
         cout << "Please input desired action for *" << map.getLocation() << "*" << endl;
+        cout << endl;
+        directory.getGlobalDirectory();
+        directory.getAreaDirectory(map);
+        //cin >> input;
     }
 }

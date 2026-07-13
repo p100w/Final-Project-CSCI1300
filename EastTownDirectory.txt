@@ -1,0 +1,5 @@
+----East Town Directory----
+4. Enter Museum
+5. Enter Blacksmith's Shop
+6. Purchase Ice cream
+7. Leave

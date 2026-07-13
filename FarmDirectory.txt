@@ -1,0 +1,8 @@
+-------------Farm Directory-------------
+4. Enter Home
+5. Open Salebin
+6. Clear Debris
+7. Hoe Land (Must have debris cleared)
+8. Plant Crops (Must have tilled soil)
+9. Water Crops (Must have crops planted)
+10. Leave

@@ -6,7 +6,7 @@ using namespace std;
 
 
 
-    Food::Food(string n, int eR, bool b, string bN, string iD, int p){
+    Food::Food(string n, int eR, bool b, string bN, string iD, int p){//food constructor
         Name=n; energyRestored=eR; buff=b, buffName=bN; itemDescription=iD; price=p;
     }
     string Food::getName(){return Name;}
@@ -14,7 +14,8 @@ using namespace std;
     string Food::getBuffName(){return buffName;}
     string Food::getItemDescription(){return itemDescription;}
     int Food::getprice(){return price;}
-
+    
+//items and item attributes can all go here
 Food sap("Sap", -2, true, "Slowness", "Its sticky... and inedible", 0);
 Food coffee("Coffee", 15, true, "Speed", "Cup o' Joe", 50);
 Food FishSoup("Fish Soup", 30, true, "Fishy", "The ocean is just like this, but a little bigger...", 50);
