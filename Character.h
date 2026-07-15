@@ -18,10 +18,12 @@ private:
 public:
     Character(string n, int hP, int MHP, int e, int eM, int g);
     string getName();
+    void setName(string n);
     int getGold();
     int getHealthPoints();
     int getmaxHP();
     int getEnergy();
+    void setEnergy(int e);
     int getEnergyMax();
 
 };
