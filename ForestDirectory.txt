@@ -1,5 +1,0 @@
----Forest Directory---
-4. Enter Wizard Tower
-5. Chop Trees
-6. Forage
-7. Leave

@@ -2,22 +2,19 @@
 #include <string>
 #include <vector>
 #include "Character.h"
+#ifndef VILLAGER_H
+#define VILLAGER_H
 using namespace std;
 
 class Villager : public Character{
         private:
-        string dialogue;
-        string KeyItem;
-        bool KeyItemCollected;
-        bool DialogueExhausted;
-        bool HasShop;
+        string Dialogue;
+        bool hasShop;
 
         public:
-        Villager(string d, string KI, bool KIC, bool DE, bool hS, string n, int hP,int MHP, int e, int eM, int g);
+        Villager(string n, string L,string d, bool hS);
         string getDialogue();
-        bool hasShop();
-        bool dialogueExhausted();
-        string getKeyItem();
-
+        bool getShop();
 
 };
+#endif 
